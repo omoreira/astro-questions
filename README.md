@@ -1,16 +1,23 @@
-Wobbly Slideshow Effect
-=========
+# Introduction to Astronomy: Course Hearing Questions
 
-The slides in this slideshow wobble as they move. The effect is based on Sergey Valiukh's Dribbble shot and was made using Snap.svg and morphing SVG paths.
+This slideshow presents open-ended astronomy questions for undergraduate course hearings. The prompts are intended to get students thinking, discussing, and applying what they know; they are not a quiz with a single expected answer. Short hints suggest ways to begin exploring each topic without giving away a complete answer.
 
-[Article on Codrops](http://tympanus.net/codrops/?p=20714)
+## Topics
 
-[Demo](http://tympanus.net/Development/WobblySlideshowEffect/)
+The questions range across Earth's shape and motions, the scale of the solar system, the Sun, galaxies, water in the solar system, atmospheric light and color, exoplanets, ways of observing the universe, and dark matter and dark energy.
 
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
+One prompt invites students to compare planetary distances at different model scales. Its “Solar distances table” button opens a scrollable overlay with reference values and links to NASA sources.
 
-Read more here: [License](http://tympanus.net/codrops/licensing/)
+## Using the slideshow
 
-Icons by [Pixel Buddha](http://pixelbuddha.net/)
+- Select the hamburger menu on the left to jump directly to a slide.
+- Use the on-screen arrows or the left and right arrow keys to move between slides.
+- Select **Solar distances table** on the scale question to open its reference table. Close it with the close button, by selecting outside the panel, or with Escape.
 
-[© Codrops 2014](http://www.codrops.com)
+The slides retain the original wobbly transition effect, implemented with Snap.svg and morphing SVG paths.
+
+## Credits and license
+
+The slideshow effect is based on Sergey Valiukh's Dribbble shot and the [Codrops Wobbly Slideshow Effect](http://tympanus.net/codrops/?p=20714). The original demo and assets are credited to Codrops; icons are by [Pixel Buddha](http://pixelbuddha.net/).
+
+Integrate or build upon the original effect for free in personal or commercial projects. Do not republish, redistribute, or sell it as-is. See the [Codrops license](http://tympanus.net/codrops/licensing/) for details.
