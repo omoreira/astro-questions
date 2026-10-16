@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Introduction to Astronomy (Course Hearing Questions)</title>
+
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+		<script src="js/snap.svg-min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<aside class="slide-menu">
+				<button class="slide-menu-toggle" id="slide-menu-toggle" type="button" aria-expanded="false" aria-controls="slide-menu-items" aria-label="Open slide menu">
+					<span aria-hidden="true">&#9776;</span>
+				</button>
+				<nav class="slide-menu-items" id="slide-menu-items" aria-label="Choose a slide" hidden></nav>
+			</aside>
+			<div id="slideshow" class="slideshow">
+				<ul>
+					<!-- Slide 1 -->
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">1.</span>
+								<p>What is the shape of our planet? How can you prove it?</p>
+							</question>
+							<hint>HINT: Think about observations you can make from Earth's surface such as ships disappearing over the horizon, shadows cast by the Sun at different latitudes, or views from high altitude.</hint>
+							<question>
+								<span class="question-number">2.</span>
+								<p>How do Earth's shape and its motions around the Sun and on its axis of rotation influence our daily lives (for instance, the length of hours, the duration of months, seasons, and the calendar)?</p>
+							</question>
+							<hint>HINT: Consider how Earth's axial tilt and orbital position relative to the Sun change throughout the year, and how this affects the angle and duration of sunlight at your location.</hint>
+						</div>
+					</li>
+					<!-- Slide 2 -->
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">3.</span>
+								<p>If we shrunk our Sun to the size of a chickpea (~1 cm diameter), where would the first planet be in terms of distance, and where would the other planets be? What if the Sun were the size of yoga ball (~ 1 m)?</p>
+							</question>
+							<hint> HINT: Use the actual orbital distances of planets and scale them proportionally to your chosen Sun size. Start by calculating the scale factor (how many times smaller your model Sun is than the real Sun), then apply that same factor to the orbital distances. To get started, here are the real Sun diameter and actual orbital distances:
+								<button class="table-overlay-trigger" type="button" aria-haspopup="dialog" aria-controls="scale-table-overlay">Solar distances table</button></hint>
+							<dialog class="table-overlay" id="scale-table-overlay" aria-labelledby="scale-table-title">
+								<div class="table-overlay-content">
+									<button class="table-overlay-close" type="button" aria-label="Close table">&times;</button>
+									<h2 id="scale-table-title">Solar system distances</h2>
+									<p>For these calculations, use a Sun diameter of 1,392,000 km. The solar diameters column divides each distance by that value.</p>
+									<p>The Oort Cloud's outer edge is an estimate. Proxima Centauri is outside our solar system, included here for scale.</p>
+								<table>
+									<thead>
+										<tr><th>Object</th><th>Average distance from the Sun (million km)</th><th>Distance (Sun diameters)</th></tr>
+									</thead>
+									<tbody>
+										<tr><td>Mercury</td><td>57.9</td><td>41.6</td></tr>
+										<tr><td>Venus</td><td>108.2</td><td>77.7</td></tr>
+										<tr><td>Earth</td><td>149.6</td><td>107.5</td></tr>
+										<tr><td>Mars</td><td>228.0</td><td>163.8</td></tr>
+										<tr><td>Jupiter</td><td>778.5</td><td>559.3</td></tr>
+										<tr><td>Saturn</td><td>1,432.0</td><td>1,028.7</td></tr>
+										<tr><td>Uranus</td><td>2,867.0</td><td>2,059.6</td></tr>
+										<tr><td>Neptune</td><td>4,515.0</td><td>3,243.5</td></tr>
+										<tr><td>Pluto (dwarf planet)</td><td>5,906.4</td><td>4,243.1</td></tr>
+										<tr><td>Estimated outer edge of Oort Cloud (~100,000 AU)</td><td>~15,000,000</td><td>~10,700,000</td></tr>
+										<tr><td>Proxima Centauri (~4.24 light-years)</td><td>~40,100,000</td><td>~28,800,000</td></tr>
+									</tbody>
+								</table>
+								<p class="table-sources">Sources: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">NASA Planetary Fact Sheet</a>, <a href="https://spaceplace.nasa.gov/sun-compare/en/">NASA Sun diameter</a>, <a href="https://science.nasa.gov/resource/oort-cloud-and-scale-of-the-solar-system-infographic/">NASA Oort Cloud estimate</a>, and <a href="https://science.nasa.gov/sun/facts/">NASA Proxima Centauri distance</a>.</p>
+								</div>
+							</dialog>
+							<question>
+								<span class="question-number">4.</span>
+								<p> If a pinhead representing the Sun's position were placed at the center of Times Square in New York City, how many times would you have to walk around Earth's equator to reach it?</p>
+							</question>
+							<hint><p>HINT: Compare the Earth's distance from Sun to the Earth's equatorial circumference (i.e. perimeter).</p>
+							<p>Earth's (equatorial) circumference = ~ 40,075 km</p>
+							<p>Our distance to the Sun is ~149.6 million km, which is roughly 3,733 times Earth's equatorial circumference.</p>
+							</hint>
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">5.</span>
+								<p>How long does it take for a photon of light created at the center of the Sun through thermonuclear reactions to reach Earth?	</p>
+							</question>
+							<hint>HINT: Consider what happens to photons as they travel through the Sun's dense interior before they leave the Sun's surface. Do they travel in a straight line at light speed the entire way?
+							</hint>
+							<question>
+								<span class="question-number">6.</span>
+								<p>What type of galaxy is the Milky Way, and what makes this type special? What are the other types of galaxies?</p>
+							</question>
+							<hint>HINT: Think about the structure you observe when you look at the Milky Way in the night sky. Is it a flat disk, a sphere, or something else? Research the Hubble classification scheme for different galaxy morphologies.
+							</hint>
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">7.</span>
+								<p>Water molecules are found throughout our solar system. Where in our solar system is water found? What's so special about the water molecules found on Earth?</p>
+							</question>
+							<hint>HINT: Consider water in all its forms: solid ice, liquid water, and water vapor. Look at moons, planets, and even comets. Think about why having water in all three states of matter, and in such abundance, is important for life as we know it.</hint>
+							<question>
+								<span class="question-number">8.</span>
+								<p>Why is the sky blue? Would the sky still be blue if Earth's atmospheric composition were different? Could we determine an exoplanet's atmospheric composition by observing its sky color from space?</p>
+							</question>
+							<hint>HINT: Think about Rayleigh scattering and how it depends on the wavelength of light and the size of molecules in the atmosphere. Then consider how different atmospheric gases and aerosols would scatter light differently.</hint>
+
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">9.</span>
+								<p>Do planets similar to Earth exist outside our solar system? How do we detect these planets and their atmospheres if we cannot see them directly?</p>
+							</question>
+							<hint>HINT: Think about exoplanet detection methods such as the transit method, radial velocity method, and direct imaging. For atmospheres, research transmission spectroscopy and what it reveals about atmospheric composition.</hint>
+							<question>
+								<span class="question-number">10.</span>
+								<p>As an astrophysicist, you spend most of your time studying the properties of light from stars. But is there any other way to study the universe that does not rely on visible light?	</p>
+							</question>
+							<hint>HINT: Think beyond the electromagnetic spectrum. Consider gravitational waves, cosmic rays, neutrinos, and other forms of radiation (infrared, ultraviolet, X-ray, radio). What does each of these tell us about distant objects?</hint>
+
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							<question>
+								<span class="question-number">11.</span>
+								<p>What are dark matter and dark energy? What observational evidence do we have for their existence?</p>
+							</question>
+							<hint>HINT: Consider galaxy rotation curves, gravitational lensing, and the accelerating expansion of the universe. What observations led astronomers to infer the existence of invisible matter and energy?</hint>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/sliderFx.js"></script>
+		<script>
+			(function() {
+				var slider = new SliderFx( document.getElementById('slideshow'), {
+					easing : 'cubic-bezier(.8,0,.2,1)'
+				} );
+
+				var menuToggle = document.getElementById('slide-menu-toggle');
+				var slideMenu = document.getElementById('slide-menu-items');
+				slider.items.forEach(function(item, index) {
+					var button = document.createElement('button');
+					button.type = 'button';
+					button.textContent = 'Slide ' + (index + 1);
+					button.setAttribute('aria-current', index === 0 ? 'true' : 'false');
+					button.addEventListener('click', function() {
+						slider.goTo(index);
+						slideMenu.querySelectorAll('button').forEach(function(menuButton) {
+							menuButton.setAttribute('aria-current', menuButton === button ? 'true' : 'false');
+						});
+						slideMenu.hidden = true;
+						menuToggle.setAttribute('aria-expanded', 'false');
+						menuToggle.setAttribute('aria-label', 'Open slide menu');
+					});
+					slideMenu.appendChild(button);
+				});
+				menuToggle.addEventListener('click', function() {
+					var isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+					slideMenu.hidden = isOpen;
+					menuToggle.setAttribute('aria-expanded', String(!isOpen));
+					menuToggle.setAttribute('aria-label', isOpen ? 'Open slide menu' : 'Close slide menu');
+				});
+
+				var tableOverlay = document.getElementById('scale-table-overlay');
+				document.querySelector('.table-overlay-trigger').addEventListener('click', function() {
+					tableOverlay.showModal();
+				});
+				tableOverlay.querySelector('.table-overlay-close').addEventListener('click', function() {
+					tableOverlay.close();
+				});
+				tableOverlay.addEventListener('click', function(event) {
+					if (event.target === tableOverlay) {
+						tableOverlay.close();
+					}
+				});
+			})();
+		</script>
+	</body>
+</html>
